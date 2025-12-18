@@ -1,0 +1,62 @@
+/* Global page styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* font family requirement */
+  background-color: #f0f4ff; /* custom background color */
+  color: #222; /* font color requirement */
+  margin: 0;
+}
+
+/* Layout containers (three divs) */
+.header-container {
+  background-color: #4a6fa5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+  text-align: center;
+  padding: 15px;
+  background-color: #e4e8f5;
+  font-size: 0.9rem;
+}
+
+/* Navigation links */
+.nav-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Section headings */
+.section-title {
+  border-bottom: 2px solid #4a6fa5;
+  padding-bottom: 4px;
+  margin-top: 30px;
+}
+
+/* Styled list example */
+.fancy-list {
+  background-color: #f7f9ff;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* Anchor target highlight */
+#top {
+  scroll-margin-top: 20px;
+}

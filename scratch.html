@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scratch Page – My Hobby</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Custom stylesheet created from scratch -->
+  <link rel="stylesheet" href="scratch-styles.css">
+</head>
+<body>
+
+  <!-- On-page anchor target -->
+  <div id="top" class="header-container">
+    <h1>My Scratch Page</h1>
+    <p>A space to experiment with HTML, CSS, and embeds.</p>
+
+    <!-- Navigation to professional pages and tic-tac-toe app -->
+    <div class="nav-links">
+      <a href="index.html">Back to Professional Site</a>
+      <a href="tictactoe.html">Play Tic-Tac-Toe App</a>
+    </div>
+  </div>
+
+  <div class="content-container">
+    <h2 class="section-title">My Hobby: Hunting</h2>
+
+
+    <!-- Ordered list with nested unordered list -->
+    <h3>What I Have Hunted in the Past</h3>
+    <ol class="fancy-list">
+      <li>
+        Game Birds
+        <ul>
+          <li>Quail</li>
+          <li>Pheasants</li>
+          <li>Turkeys</li>
+        </ul>
+      </li>
+      <li>
+        Water Fowl
+        <ul>
+          <li>Ducks</li>
+          <li>Geese</li>
+        </ul>
+      </li>
+      <li>
+        Big Game
+        <ul>
+          <li>White-Tailed Deer</li>
+        </ul>
+      </li>
+    </ol>
+
+    <!-- Image not from Bootstrap theme -->
+    <h3 class="section-title">My Most Recent Hunt</h3>
+    <p>Here is my most recent hunt from this past spring when I got a turkey:</p>
+    <img 
+      src="c:\Users\shayl\OneDrive\Documents\IMG_20250513_182305114_HDR.jpg" 
+      alt="Person working at a computer" 
+      style="max-width: 100%; border-radius: 8px;">
+
+    <!-- Embedded YouTube video -->
+    <h3 class="section-title">Duck Hunting Video</h3>
+    <p>
+      Below is an embedded YouTube video that shows how some guys duck hunt on a river. This is very similar to how my dad and I duck hunt.
+    </p>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe width="560" height="315" 
+      src="https://www.youtube-nocookie.com/embed/h0naN8Vbn5o?si=IXFIZ33pTQmxq5--" 
+      title="YouTube video player" 
+      frameborder="0" 
+      style="position: absolute; top:0; left:0; width:100%; height:100%;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- Tableau embedded graph -->
+    <h3 class="section-title">Interactive Tableau Visualization</h3>
+    <p>
+      Here is an example of a live, interactive Tableau graph embedded on the page
+      (not just a static image).
+    </p>
+    <!-- Replace this with any valid Tableau embed you find, if needed -->
+    <div class='tableauPlaceholder' id='viz1766024117534' style='position: relative'>
+        <noscript>
+        <a href='#'>
+          <img alt='Unit Breakdown ' 
+               src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Or&#47;OregonElkHuntingData2018&#47;UnitBreakdown&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='OregonElkHuntingData2018&#47;UnitBreakdown' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Or&#47;OregonElkHuntingData2018&#47;UnitBreakdown&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1766024117534');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='380px';vizElement.style.maxWidth='880px';vizElement.style.width='100%';vizElement.style.minHeight='617px';vizElement.style.maxHeight='1217px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='380px';vizElement.style.maxWidth='880px';vizElement.style.width='100%';vizElement.style.minHeight='617px';vizElement.style.maxHeight='1217px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    
+    
+          
+    </div>
+    <script type="text/javascript">
+      var divElement = document.getElementById('viz1680800000000');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = (divElement.offsetWidth * 0.6) + 'px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <!-- On-page anchor link -->
+    <h3 class="section-title">Navigation on This Page</h3>
+    <p>
+      This is an example of an on-page anchor link:
+      <a href="#top">Back to the top of the page</a>.
+    </p>
+  </div>
+
+  <div class="footer-container">
+    <p>
+      Scratch page for web development practice.  
+      <a href="index.html">Return to Professional Site</a> | 
+      <a href="tictactoe.html">Tic-Tac-Toe App</a>
+    </p>
+  </div>
+
+</body>
+</html>
